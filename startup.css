@@ -1,0 +1,32 @@
+body{
+	font-family: cursive;,fantasy;
+	background: #CDC2BC;
+}
+section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+}
+h1{
+	font-family: brush script mt,cursive;
+	font-size: 800%;
+	font-style: italic;
+	color: #E55300;
+	font-weight: bolder;
+	animation-name: bounce;
+	animation-duration: 4s;
+}
+@bounce
+
+.bt{
+	background: white;
+	border-radius: 300px;
+	border: 3px solid;
+	color: #E55300;
+}
+.bt:hover{
+	color: white;
+	background-color: green;
+}

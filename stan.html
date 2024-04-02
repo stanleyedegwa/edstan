@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HOME APPLIANCES</title>
+	<link rel="stylesheet" type="text/css" href="stan.css">
+</head>
+<body>
+    <header>
+
+		<nav>
+			<input type="color" name="color1" value="#0e7c6f" class="color1">
+			<input type="color" name="color2" value="#1c5f92" class="color2">
+			<input id=input type="text" name="input" placeholder="enter">
+			<button id="enter">enter</button>
+			<ul onclick="del">
+				<li>Register</li>
+				<li>Log in</li>
+				<li>About</li>
+			</ul>
+		</nav>
+	</header>
+	<div class="all section">
+		<h1><em><span>Ed's</span> Apartment Items</em></h1>
+		<marquee behavior="" direction=""><p>get your quality home items at 15% discount rate </p></marquee>
+		<section class="contianer">
+		    <h3>freezer</h3>
+		    
+
+			<div class="freezer-items">
+				<div class="item">
+					<img src="data:image/jpeg;base64,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" width="150" height= "150">
+					<p>polystar</p>
+				</div>
+				<div class="item">
+					<img src="https://www.thermocool.com.ng/wp-content/uploads/2020/11/2-HTF-219-319-_-379-TS-Closed-Lid-With-Front-View.jpg" width="150" height="150">
+					<p>haier Thermocool</p>
+				</div>
+				<div class="item">
+					<img src="https://zit.ng/cdn/shop/products/nx315_2048x2048.webp?v=1665758854" width="150" height="150">
+					<p>Nexus</p>
+				</div>
+				<div class="item">
+					<img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/36/7813011/1.jpg?5627" width="150" height="150">
+					<p>chest</p>
+				</div>
+				<div class="item">
+					<img src="data:image/jpeg;base64,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" width="150" height="150">
+					<p>upright</p>
+				</div>
+				<div class="item">
+					<img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSijUQ-ifXm82mexpifTAu_hW-TvijmZbnzClOkncaD74RTatpvMtV8lMIPQlcoFdRUFruap1YX7TTNTeJ7WWMRY57p3V4y29y3UOD3C13t58ONycDf2wG9y4sPUC8oD7DctT6sI6wWvQ&usqp=CAc" width="150" height="150">
+					<p>scanfrost</p>
+				</div>
+				
+			</div>
+			
+		</section>
+		<section class="container">
+			<h3>Generator</h3>
+			<div class="row">
+				<div class="1">yamaha</div>
+				<div class="2">firman</div>
+				<div class="3">lutina</div>
+				<div class="4">tiger</div>
+				<div class="5">elepaq</div>
+				<div class="6">haier thermocool</div>
+			</div>
+			
+		</section>
+		
+	</div>
+	<footer>
+	</footer>
+	<script type="text/javascript" src="stan.js"></script>
+</body>
+</html>

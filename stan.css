@@ -1,0 +1,55 @@
+body{
+	background-image: url(cow.jpg);
+	background-size: cover;
+	font-style: italic;
+	font-size: 30px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-blend-mode: ;
+
+}
+.freezer-items{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+.item img{
+	display: flex;
+	align-items: baseline;
+	object-fit: fill;
+	border-radius: 50px 10px;
+	margin: 20px;
+	cursor: pointer;
+	padding:0px;
+	border: 10px solid burlywood;
+
+
+
+}
+.item p{
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	text-shadow: 2px 2px yellowgreen;
+	cursor: pointer;
+}
+ul{
+	float: right;
+	list-style: none;
+}
+h1{
+	font-size: 300%;
+}
+span{
+	text-decoration: underline;
+	text-shadow: 3px 3px 3px;
+	color: #FFAB65;
+	font-size: 150%;
+}
+.row{
+	display: grid;
+	grid-template-columns: 300px 300px;
+}
